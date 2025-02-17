@@ -6,9 +6,14 @@ function Form() {
     return (
         <div>
             <form>
-                <div className='flex flex-col gap-5 w-full md:w-md mx-auto'>
+                <div className='flex flex-col gap-5 w-full  mx-auto'>
+                    <div className='flex gap-5'>
+                        <Input type={"text"} placeholder={"Ad"}></Input>
+                        <Input type={"text"} placeholder={"Soyad"}></Input>
+                    </div>
+                    <Input type={"tel"} placeholder={"(5XX) XXX-XXXX"}></Input>
                     <Input type={"text"} placeholder={"Email"}></Input>
-                    <textarea className='bg-white p-2 w-full rounded-md resize-y focus:outline-none h-40 text-stone-500'></textarea>
+                    <textarea className='bg-white p-3 w-full rounded-md resize-none  focus:outline-none h-40 text-stone-500' placeholder='Mesaj'></textarea>
                     <Button type='submit' children={"Gönder"} />
                 </div>
             </form>
