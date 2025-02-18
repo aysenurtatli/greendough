@@ -11,6 +11,10 @@ export const navLinks =
         {
             tag: "Ürünlerimiz",
             to: "/products"
+        },
+        {
+            tag: "iletişim",
+            to: "/contact"
         }
     ]
 
