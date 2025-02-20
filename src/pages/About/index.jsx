@@ -1,12 +1,13 @@
 import React from 'react'
 import doughImage from '../../assets/images/dough.jpg'
 import mockup from '../../assets/images/mockup.jpg'
-import HeroImage from '../../components/Hero/HeroImage'
 import ImageTextBlock from '../../components/ImageTextBlock'
 function About() {
+
+
     return (
-        <div className='max-w-7xl mx-auto h-screen p-3 xl:p-0'>
-            <div>
+        <div className="container  mx-auto h-screen p-3 xl:p-0">
+            <div className='bg-white p-6 rounded-4xl'>
                 <ImageTextBlock
                     imageSrc={doughImage}
                     altText="dough"
