@@ -10,7 +10,7 @@ function HeroText({ mainText, highlightText, }) {
             <div className='w-[250px]'>
                 <h2 className='text-xl md:text-2xl font-medium text-center'>
                     Tohuma dönüşen
-                    <span className='block bg-[#9DCE4B] rounded-xl'>%100 doğal</span>
+                    <span className='block bg-[#9DCE4B] rounded-full p-2'>%100 doğal</span>
                     Oyun hamurları
                 </h2>
             </div>
