@@ -3,7 +3,7 @@ import Image from './Image'
 import TextContent from './TextContent'
 function ImageTextBlock({ imageSrc, altText, title, text, reverse = false, rounded }) {
     return (
-        <div className={`grid grid-cols-1 md:grid-cols-2 items-center gap-5 my-5`}>
+        <div className={`grid grid-cols-1 md:grid-cols-2 items-center gap-5`}>
             <div className={`flex justify-center ${reverse ? "md:order-2" : "md:order-1"}`}>
                 <Image imageSrc={imageSrc} altText={altText} rounded={rounded} />
             </div>
