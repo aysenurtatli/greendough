@@ -4,7 +4,7 @@ function Input({ type, placeholder, onChange, variant = "primary" }) {
 
     const baseStyles = "rounded-md font-medium bg-white";
     const variantStyles = {
-        primary: "bg-white text-stone-500 focus:outline-none p-2 w-full",
+        primary: "bg-white text-stone-500 focus:outline-none p-3 w-full",
         outline: "border border-stone-200 text-stone-300"
     }
     return (
