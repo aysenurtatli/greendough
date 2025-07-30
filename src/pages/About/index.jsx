@@ -6,7 +6,7 @@ function About() {
 
 
     return (
-        <div className="container  mx-auto h-screen p-3 xl:p-0">
+        <div className="container  mx-auto p-3 xl:p-0">
             <div className='bg-white p-6 rounded-4xl'>
                 <ImageTextBlock
                     imageSrc={doughImage}
