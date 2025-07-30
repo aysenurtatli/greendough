@@ -7,7 +7,7 @@ function ImageTextBlock({ imageSrc, altText, title, text, reverse = false, round
             <div className={`flex justify-center ${reverse ? "md:order-2" : "md:order-1"}`}>
                 <Image imageSrc={imageSrc} altText={altText} rounded={rounded} />
             </div>
-            <div className={`flex justify-center ${reverse ? "md:order-1" : "md:order-2"}`}>
+            <div className={`flex justify-center ${reverse ? "md:order-1" : "md:order-2 my-5 md:my-0"}`}>
                 <TextContent title={title} text={text} rounded={rounded} />
             </div>
         </div>
